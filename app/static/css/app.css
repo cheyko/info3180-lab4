@@ -6,3 +6,23 @@ body {
   padding: 10px;
   width: 400px;
 }
+
+.render{
+  border: none;
+  margin:1em;
+  width:20em;
+  height:15em;
+  float:left;
+}
+.images{
+  width:100%;
+  height:100%;
+  margin-left:10%;
+  margin-right:10%;
+  
+}
+/* this bootstrap thing far more convenient that i got have ever imagined */
+.container{
+  border:none;
+  height:35em;
+}

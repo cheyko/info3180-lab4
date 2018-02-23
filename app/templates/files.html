@@ -1,14 +1,15 @@
+
 {% extends 'base.html' %}
 
 {% block main %}
 
-{{files}}
-
 {% for aImage in files %}
-    <div>
-        <img src="{{url_for('static',filename='uploads/'+aImage)}}" />
-        
-    </<div>
+        <div class = "render">
+            <img class="images" src="{{url_for('static',filename='uploads/'+aImage)}}" />
+            <p id ="caption"> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <small>name:</small> {{aImage}} </p>
+        </div>
+    
+         
 {% endfor %}
 
 {% endblock %}
